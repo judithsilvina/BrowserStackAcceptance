@@ -11,9 +11,6 @@ namespace BrowserStackAcceptance.PageObjects
 {
     public class SignInPage : BasePage
     {
-        
-   
-        
         [FindsBy(How = How.Id, Using = "username")]
         public IWebElement TxtUserName;
 
@@ -31,7 +28,6 @@ namespace BrowserStackAcceptance.PageObjects
 
         public SignInPage EnterUserNameAndPassword()
         {
-            //TxtUserName = driver.FindElement(By.CssSelector("div.css-1hwfws3"));
             Actions actions = new Actions(Driver);
             actions.MoveToElement(TxtUserName);
             actions.ClickAndHold();

@@ -42,12 +42,10 @@ namespace BrowserStackAcceptance.PageObjects
 
             JToken JsonData = JToken.Parse(responseString);
             JToken iphoneData = JsonData.SelectToken("$..[?(@.id == 1)]");
-            Console.WriteLine(iphoneData);
             return iphoneData;
         }
         public OrdersPage AddToCart()
         {
-           // BrowserDemopage.Click();
             
             BtnAddToCart.Click();
             ValidateOrderHistory.SleepFor10Sec();
