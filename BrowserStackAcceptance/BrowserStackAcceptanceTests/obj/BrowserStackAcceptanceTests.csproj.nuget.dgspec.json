@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptanceTests\\BrowserStackAcceptanceTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptanceTests\\BrowserStackAcceptanceTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptanceTests\\BrowserStackAcceptanceTests.csproj",
+        "projectName": "BrowserStackAcceptanceTests",
+        "projectPath": "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptanceTests\\BrowserStackAcceptanceTests.csproj",
+        "packagesPath": "C:\\Users\\judit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptanceTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\judit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance.csproj": {
+                "projectPath": "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance.csproj",
+        "projectName": "BrowserStackAcceptance",
+        "projectPath": "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance.csproj",
+        "packagesPath": "C:\\Users\\judit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\judit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[97.0.4692.7100, )"
+            },
+            "StoryQ": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

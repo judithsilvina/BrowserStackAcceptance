@@ -1,0 +1,281 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NUnit/3.13.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "Selenium.Support/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net40/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net40/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/97.0.4692.7100": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
+      "StoryQ/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/StoryQ.dll": {},
+          "lib/StoryQ.pt-BR.dll": {},
+          "lib/StoryQ.sr-SP.dll": {}
+        },
+        "runtime": {
+          "lib/StoryQ.dll": {},
+          "lib/StoryQ.pt-BR.dll": {},
+          "lib/StoryQ.sr-SP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "NUnit/3.13.2": {
+      "sha512": "u+fz/lXyR4vlamySNAEMrXvh+GhAQiB6/aVZtU5WjivR5zF26Ui0tfteDtWqT90k9D8y6g8rFKYQC97Z7d195w==",
+      "type": "package",
+      "path": "nunit/3.13.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "icon.png",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.13.2.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "Selenium.Support/3.3.0": {
+      "sha512": "0dOLtEKix5IGJ0+CcozjU/QOfKHz9JPQ8aDkDwhJILQe4dHUv4j9HvQJMdXP1MFGEgC/Wi4c6OsZmDh6Hc3ZYQ==",
+      "type": "package",
+      "path": "selenium.support/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.Support.dll",
+        "lib/net35/WebDriver.Support.xml",
+        "lib/net40/WebDriver.Support.dll",
+        "lib/net40/WebDriver.Support.xml",
+        "selenium.support.3.3.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/3.3.0": {
+      "sha512": "+n89gGMYgObdN1DQST3mLiZJkm/85o1ELy3+000v4bBbL3UYGA7za4QjprG+Oz36fYKCmqE7zPEj6gI3/w/hBw==",
+      "type": "package",
+      "path": "selenium.webdriver/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.dll",
+        "lib/net35/WebDriver.xml",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "selenium.webdriver.3.3.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/97.0.4692.7100": {
+      "sha512": "/5wf4Rv9vTmab2qWo3enuYLoumOyVb6+rO0f2hbym+MQzDGYb7GpadhWk/jgNtUf6eFvsqL90TyzXrcCfOhCyQ==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/97.0.4692.7100",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.97.0.4692.7100.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
+    "StoryQ/2.0.5": {
+      "sha512": "bE0N//CzWRRtBKQshwuxYn5s2kQcei5r3xV086uxjHpOXXYtwtXL1ZoJrBbKGyCbrBLd94nIY5eDWC9Xdk/aAw==",
+      "type": "package",
+      "path": "storyq/2.0.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Tools/LanguagePacks/StoryQ.pt-BR.XML",
+        "Tools/LanguagePacks/StoryQ.pt-BR.dll",
+        "Tools/LanguagePacks/StoryQ.sr-SP.XML",
+        "Tools/LanguagePacks/StoryQ.sr-SP.dll",
+        "Tools/StoryQ.Converter.Wpf.application",
+        "Tools/StoryQ.Converter.Wpf.exe",
+        "Tools/StoryQ.Converter.Wpf.exe.config",
+        "Tools/StoryQ.Converter.Wpf.exe.manifest",
+        "Tools/StoryQ.dll",
+        "Tools/StoryQ.xml",
+        "lib/StoryQ.dll",
+        "lib/StoryQ.pt-BR.XML",
+        "lib/StoryQ.pt-BR.dll",
+        "lib/StoryQ.sr-SP.XML",
+        "lib/StoryQ.sr-SP.dll",
+        "lib/StoryQ.xml",
+        "storyq.2.0.5.nupkg.sha512",
+        "storyq.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "NUnit >= 3.13.2",
+      "Newtonsoft.Json >= 13.0.1",
+      "Selenium.Support >= 3.3.0",
+      "Selenium.WebDriver >= 3.3.0",
+      "Selenium.WebDriver.ChromeDriver >= 97.0.4692.7100",
+      "StoryQ >= 2.0.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\judit\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance.csproj",
+      "projectName": "BrowserStackAcceptance",
+      "projectPath": "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance.csproj",
+      "packagesPath": "C:\\Users\\judit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\judit\\Desktop\\judy\\Automation\\BrowserStackDemoAcceptance\\BrowserStackAcceptance\\BrowserStackAcceptance\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\judit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.13.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[3.3.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[3.3.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[97.0.4692.7100, )"
+          },
+          "StoryQ": {
+            "target": "Package",
+            "version": "[2.0.5, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

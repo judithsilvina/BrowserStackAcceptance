@@ -1,0 +1,17 @@
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\obj\Debug\net48\BrowserStackAcceptance.csproj.AssemblyReference.cache
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\obj\Debug\net48\BrowserStackAcceptance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\obj\Debug\net48\BrowserStackAcceptance.AssemblyInfoInputs.cache
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\obj\Debug\net48\BrowserStackAcceptance.AssemblyInfo.cs
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\obj\Debug\net48\BrowserStackAcceptance.csproj.CoreCompileInputs.cache
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\bin\Debug\net48\BrowserStackAcceptance.dll
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\bin\Debug\net48\BrowserStackAcceptance.pdb
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\bin\Debug\net48\Newtonsoft.Json.dll
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\bin\Debug\net48\nunit.framework.dll
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\bin\Debug\net48\WebDriver.Support.dll
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\bin\Debug\net48\WebDriver.dll
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\bin\Debug\net48\StoryQ.dll
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\bin\Debug\net48\StoryQ.pt-BR.dll
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\bin\Debug\net48\StoryQ.sr-SP.dll
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\obj\Debug\net48\BrowserStackAcceptance.csproj.CopyComplete
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\obj\Debug\net48\BrowserStackAcceptance.dll
+C:\Users\judit\Desktop\judy\Automation\BrowserStackDemoAcceptance\BrowserStackAcceptance\BrowserStackAcceptance\obj\Debug\net48\BrowserStackAcceptance.pdb
